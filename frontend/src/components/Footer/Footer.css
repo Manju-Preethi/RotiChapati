@@ -1,0 +1,93 @@
+.footer{
+    color:#d9d9d9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 10vw;
+    padding-top: 80px;
+}
+.lightcolors .footer{
+    color: #1c1c1c;
+}
+.footer-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 80px;
+}
+.footer-content .img {
+    height: 50px;
+    width: 200px;
+}
+.footer-content-left, .footer-content-right, .footer-content-center{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.footer-content-left li, .footer-content-right li, .footer-content-center li{
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.footer-social-icons img {
+    width: 40px;
+    margin-right: 15px;
+}
+.lightcolors .footer-social-icons img {
+    filter: invert(1) brightness(1) contrast(0.5);
+}
+
+.footer hr{
+    width: 100%;
+    height: 2px;
+    margin: 20px 0px;
+    background-color: tomato;
+    border: none;
+    
+}
+:root {
+    --input-color: black; /* Define custom color for input elements */
+    --background-root: black;
+    --border-root: 2px solid white;
+    --padding-root: 10px;
+    --upload: brightness(1) invert(1); /* Added a custom variable */
+    --logos-filter: brightness(0) invert(1); /* Added a custom variable */
+    --sidebar: black;
+    --border-color: #27272a;
+    --nav-color-one: #0d0d179a;
+    --nav-color-two: #0d0618;
+    --body-color: #121212;
+    --dark-text: #101010;
+    --light-text: #ffffff;
+    --light-text-secondary: #b9b9b9;
+    --light-text-desc: #d8d8d8;
+    --dropdown-bg: #121212;
+  }
+  
+  /* For lightcolors */
+  .lightcolors {
+    --sidebar: #fff0ed;
+    --body-color: #ffffff;
+    --dark-text: #fff;
+    --light-text: #101010;
+    --nav-color-two: #f6f6f2;
+    --nav-color-one: #f1f1f17e;
+    --border-color: #ddd;
+    --light-text-secondary: #464853;
+    --light-text-desc: #020202;
+    --dropdown-bg: #fff2ef;
+    --cards-text-color: #fff;
+  }
+
+@media(max-width:750px){
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        font: 35px;
+    }
+    .footer-copyright{
+        text-align: center;
+    }
+}
