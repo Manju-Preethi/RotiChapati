@@ -1,11 +1,3 @@
-.env
-node_modules
-
-# Ignore other image types if needed
-# uploads/*.jpg
-# uploads/**/*.jpg
-
-# ALLOW PNG images in uploads (uncommented to include in git)
-# Previously blocked lines are now commented out
+# Make sure these lines are commented/removed
 # uploads/*.png
 # uploads/**/*.png
