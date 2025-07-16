@@ -15,6 +15,17 @@
 - **Backend:** [Node.js, Express.js, MongoDB, Mongoose, JWT]
 - **Payment Gateway:** [Stripe]
 
+## 🌐 Live Demo
+
+Explore the live versions of the RotiChapati project:
+
+| Project        | URL                                      |
+|----------------|-------------------------------------------|
+| 🍽️ **User Frontend** | [https://rotichapati-frontend.onrender.com](https://rotichapati-frontend.onrender.com) |
+| 🛠️ **Admin Panel**   | [https://rotichapati-admin.onrender.com](https://rotichapati-admin-f8c9.onrender.com) *(replace if different)* |
+
+> ⚠️ Note: Backend should be deployed and accessible for full functionality.
+
 ## Getting Started
 
 ### Frontend
